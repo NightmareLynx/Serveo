@@ -1,7 +1,6 @@
 # Serveo (Ngrok Alternative)
 Serveo is an excellent alternative to ngrok. Serveo was inspired by ngrok and attempts to serve many of the same purposes. The primary advantage of Serveo over ngrok is the use of your existing SSH client, so there's no client application to install.
 
-![Image Alt](https://github.com/NightmareLynx/Serveo/blob/master/demo.png?raw=true)
 
 ```
 parameter : [http/tcp] [local port] [option]
@@ -9,7 +8,10 @@ parameter : [http/tcp] [local port] [option]
   http  80 0             //localhost:80 forward to public https
   tcp 4869 0             //random tcp port forwarding
   tcp 4869 1945          //custom tcp port forwarding
+
   ```
+
+![Image Alt](https://github.com/NightmareLynx/Serveo/blob/master/demo.png?raw=true)
 
   # Install For Linux
 `git clone https://github.com/NightmareLynx/Serveo`
