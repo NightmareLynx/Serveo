@@ -27,5 +27,4 @@ For custom port
 Hey Anons,
 Serveo is a free-to-use (open-source) tunneling tool that exposes your localhost to the internet through a secure tunnel (link). Please do not misuse this tool.
 It is intended only for testing and educational purposes. If you still choose to use it in real scenarios, make sure to have proper permissions and documentation.
-
 **And always remember — no one is 100% secure.**
