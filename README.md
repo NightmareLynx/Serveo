@@ -7,24 +7,23 @@ parameter : [http/tcp] [local port] [option]
   tcp 4869 0             //random tcp port forwarding
   tcp 4869 1945          //custom tcp port forwarding
   ```
-  
+
+  # Install For Linux
+`git clone https://github.com/NightmareLynx/Serveo`
   
  ## Example
-request random http subdomain
+For random http subdomain
 `serveo http 80 0` 
   
-request change http subdomain
+For change http subdomain
 `serveo http 80 change` 
   
-request custom port
+For custom port
 `serveo http 80 4869` 
-  
-### Linux
-`wget https://raw.githubusercontent.com/milio48/serveo/master/serveo.sh`
 
-### Windows
-u can download exe, but arg not supported cause compiled by winrar
 
-if u run from source, u can run with arg. but u must run in same folder with library.
-> sorry in windows version, haven't supported to reverse shell with nc. maybe have problem in ssh library.
-> please contrib
+# Note:
+Hey Anons,
+Serveo is a free-to-use (open-source) tunneling tool that exposes your localhost to the internet through a secure tunnel (link). Please do not misuse this tool.
+It is intended only for testing and educational purposes. If you still choose to use it in real scenarios, make sure to have proper permissions and documentation.
+**And always remember — no one is 100% secure.**
